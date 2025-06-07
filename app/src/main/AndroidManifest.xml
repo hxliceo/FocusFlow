@@ -15,6 +15,15 @@
         android:theme="@style/Theme.FocusFlow"
         tools:targetApi="31">
         <activity
+            android:name=".EditNotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsNotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CreateNotesActivity"
+            android:exported="false" />
+        <activity
             android:name=".RelaxSoundsActivity"
             android:exported="false" />
         <activity

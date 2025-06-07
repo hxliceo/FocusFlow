@@ -47,6 +47,7 @@ dependencies {
     implementation(libs.androidx.credentials)
     implementation(libs.androidx.credentials.play.services.auth)
     implementation(libs.googleid)
+    implementation(libs.firebase.firestore)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -64,5 +65,9 @@ dependencies {
     implementation("com.google.android.libraries.identity.googleid:googleid:1.1.1")
     implementation("com.google.android.gms:play-services-auth:21.0.0")
     implementation ("androidx.cardview:cardview:1.0.0")
+    // Firebase Firestore
+    implementation ("com.google.firebase:firebase-firestore:24.10.0")
+    // Firebase UI para Firestore (incluye FirestoreRecyclerAdapter)
+    implementation ("com.firebaseui:firebase-ui-firestore:8.0.2")
 
 }

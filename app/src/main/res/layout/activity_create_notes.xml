@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateNotesActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbarofcreatenote"
+        android:background="@color/white">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="12dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:hint="Introduce el título aquí"
+            android:id="@+id/createtitleofnote"/>
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <EditText
+        android:id="@+id/createcontentofnote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbarofcreatenote"
+        android:layout_marginTop="-5dp"
+        android:background="#faf7f7"
+        android:gravity="top|left"
+        android:hint="Introduce tu contenido aquí"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="bottom|end"
+        android:id="@+id/savenote"
+        android:src="@drawable/save"
+        android:background="#A1F4FB"
+        app:maxImageSize="56dp">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <Button
+        android:id="@+id/btnGray"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/createcontentofnote"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-61dp"
+        android:backgroundTint="#cdc9c3"/>
+
+    <Button
+        android:id="@+id/btnGreen"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/createcontentofnote"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-61dp"
+        android:layout_toEndOf="@+id/btnGray"
+        android:backgroundTint="#c6ebc9" />
+
+    <Button
+        android:id="@+id/btnLightGreen"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/createcontentofnote"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-61dp"
+        android:layout_toEndOf="@+id/btnGreen"
+        android:backgroundTint="#cfffa5" />
+
+    <Button
+        android:id="@+id/btnSkyeblue"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/createcontentofnote"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-61dp"
+        android:layout_toEndOf="@+id/btnLightGreen"
+        android:backgroundTint="#a7c5eb" />
+
+    <Button
+        android:id="@+id/btnPink"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/createcontentofnote"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-61dp"
+        android:layout_toEndOf="@+id/btnSkyeblue"
+        android:backgroundTint="#f3e6e3" />
+
+    <Button
+        android:id="@+id/btnColor1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/createcontentofnote"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-101dp"
+        android:backgroundTint="#efbbcf"/>
+
+    <Button
+        android:id="@+id/btnColor2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/createcontentofnote"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-101dp"
+        android:layout_toEndOf="@+id/btnGray"
+        android:backgroundTint="#d6b0b1" />
+
+    <Button
+        android:id="@+id/btnColor3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/createcontentofnote"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-101dp"
+        android:layout_toEndOf="@+id/btnGreen"
+        android:backgroundTint="#ccf6c8" />
+
+    <Button
+        android:id="@+id/btnColor4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/createcontentofnote"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-101dp"
+        android:layout_toEndOf="@+id/btnLightGreen"
+        android:backgroundTint="#ffe0ac" />
+
+    <Button
+        android:id="@+id/btnColor5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/createcontentofnote"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-101dp"
+        android:layout_toEndOf="@+id/btnSkyeblue"
+        android:backgroundTint="#e5cfe5" />
+
+</RelativeLayout>

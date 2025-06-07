@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="transparent">#80000000</color>
+    <color name="top_bg">#EEEBEB</color>
+    <color name="colorPrimaryDark">#0D0E0E</color>
+
+    <!--Colores para el login-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6288EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="my_primary">#5E35B1</color>
+    <color name="my_secondary">#673AB7</color>
+
+    <!-- Dashboard colors-->
+    <color name="db_colorPrimary">#FFC107</color>
+    <color name="db_colorPrimaryDark">#FFA000</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="black_overlay">#66000000</color>
+
+    <!-- Colores para las notas -->
+    <color name="defaultColor">#FFFFFF</color>
+    <color name="gray">#cdc9c3</color>
+    <color name="green">#c6ebc9</color>
+    <color name="lightgreen">#cfffa5</color>
+    <color name="skyeblue">#a7c5eb</color>
+    <color name="pink">#f3e6e3</color>
+    <color name="color1">#efbbcf</color>
+    <color name="color2">#d6b0b1</color>
+    <color name="color3">#ccf6c8</color>
+    <color name="color4">#ffe0ac</color>
+    <color name="color5">#e5cfe5</color>
 </resources>
