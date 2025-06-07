@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "39186834540",
+    "project_id": "focusflow-e0a51",
+    "storage_bucket": "focusflow-e0a51.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39186834540:android:42e3cdaea885294b942449",
+        "android_client_info": {
+          "package_name": "com.app.focusflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39186834540-7k2p69rrbtja230qerolqlq5q5018qpv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.focusflow",
+            "certificate_hash": "23bcf483e0617f1c79a912ba7fa2425b2e5bac14"
+          }
+        },
+        {
+          "client_id": "39186834540-1tgd7tb1pm0mr3sgmj6c00t81iq006fp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd90oD3dYS00H9lKaqSFlQDyYDqVYsiIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39186834540-1tgd7tb1pm0mr3sgmj6c00t81iq006fp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

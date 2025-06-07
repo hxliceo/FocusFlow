@@ -1,0 +1,28 @@
+<resources>
+    <style name="DashboardCard">
+        <item name="android:layout_width">140dp</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">12dp</item>
+        <item name="android:background">@drawable/rounded_card_gradient</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="DashboardIcon">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:tint">#3F51B5</item> <!-- Puedes cambiar el color aquí -->
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+
+    <style name="DashboardText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+</resources>
