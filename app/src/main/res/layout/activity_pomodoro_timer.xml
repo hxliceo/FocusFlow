@@ -1,10 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/rootLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#fff"
     tools:context=".PomodoroTimerActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Imagen del tomate -->
+    <ImageView
+        android:id="@+id/tomatoImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/tomato"
+        android:contentDescription="Tomato Image" />
+
+    <!-- Texto con el tiempo -->
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25:00"
+        android:textSize="36sp"
+        android:textColor="#000"
+        android:layout_below="@id/tomatoImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <!-- Debajo del timerText -->
+    <TextView
+        android:id="@+id/modeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modo: Trabajo"
+        android:textSize="20sp"
+        android:textColor="#444"
+        android:layout_below="@id/timerText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⚙️"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp" />
+
+
+</RelativeLayout>
